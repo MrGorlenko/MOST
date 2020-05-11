@@ -1,0 +1,55 @@
+.header{
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__content{
+        display: flex;
+        width: 800px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__language{
+        display: flex;
+        align-items: center;
+    }
+    &__line{
+        width: 1px;
+        height: 51px;
+        background: #C4C4C4;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    &__link{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: TT Chocolates;;
+    }
+    &__lang{
+        color: #C4C4C4;
+        &_active{
+            color: #03A5C4;
+        }
+    }
+    &__button{
+        font-family: TT Chocolates;
+        width: 152px;
+        height: 50px;
+        background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 52.76%, #FFFFFF 94.29%);
+        border-radius: 15px;
+        color: #03A5C4;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,182 @@
+.price{
+    background-image: rgba(243, 243, 243, 0);
+    &__title{
+        transform: rotate(-4deg);
+    }
+    &__btns{
+        margin: auto;
+        width: 340px;
+        height: 106px;
+
+        display: flex;
+        justify-content: space-between;
+
+        align-items: flex-end;
+    }
+    &__left{
+        background: #959FB3;
+        border-radius: 13px;
+        width: 40%;
+        height: 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: relative;
+
+        img{
+            position: absolute;
+            top: -60px;
+            right: -30px;
+        }
+    }
+    &__right{
+        background: #959FB3;
+        border-radius: 13px;
+        width: 40%;
+        height: 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__passive{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+
+        width: 40%;
+
+        display: flex;
+        align-items: center;  
+        justify-content: center;
+
+        font-family: TT Chocolates;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+    &__active{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: #03A5C4;
+
+        background: #FFFFFF;
+        box-shadow: 0px 5px 18px rgba(200, 205, 217, 0.6);
+        border-radius: 14px;
+
+        width: 40%;
+        height: 28px;
+
+        display: flex;
+        align-items: center;  
+        justify-content: center;
+    }
+
+
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        width: 660px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    &__table{
+        width: 210px;
+        height: 310px;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 18px rgba(200, 205, 217, 0.6);
+        border-radius: 12px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 10px;
+    }
+    &__subtitle{
+        background: linear-gradient(90deg, #34ABBE 0%, #4DD1E6 100%);
+        border-radius: 12px 12px 0px 0px;
+        height: 49px;
+        width: 100%;
+        text-align: center;
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        color: #FFFFFF;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    &__cost{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #34ABBE;
+    }
+
+    &__list{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        color: #9D9D9D;
+        list-style-type: none;
+
+        margin-left: -25px;
+        padding-left: 0;
+        li{
+            display: flex;
+            align-items: center;
+            height: 31px;
+        }
+        &-icon{
+            margin-right: 5px;
+        }
+    }
+
+    &__button{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        background: rgba(77, 209, 230, 0.3);
+        box-shadow: 0px 6px 30px rgba(70, 177, 194, 0.5);
+        border-radius: 12px;
+        width: 150px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+        span{
+            color: #03A5C4;
+        }
+    }
+
+    &__support{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #9796A0;
+        width: 100%;
+        display: block;
+
+        margin-top: 30px
+    }
+
+    &__pay{
+        margin: auto;
+        width: 370px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}

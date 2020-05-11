@@ -1,0 +1,33 @@
+.reasons{
+    padding-bottom: 40px;
+    &__title{
+        margin-top: 100px;
+        margin-bottom: 75px;
+    }
+    &__container{
+        width: 980px;
+        height: 205px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    &__block{
+        height: 205px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+            width: 165px;
+            text-align: center;
+            font-family: TT Chocolates;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #414052;
+        }
+    }
+    &__img{
+        margin-bottom: 20px;
+    }
+}

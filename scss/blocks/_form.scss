@@ -1,0 +1,61 @@
+.form{
+
+    position: relative;
+
+    padding-bottom: 50px;
+
+    &__container{
+        width: 80%;
+        display: flex;
+
+        justify-content: space-between;
+        margin: auto;
+
+        position: relative;
+    }
+
+    &__form{
+        width: 500px;
+        height: 428px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: space-around;
+        align-items: flex-start;
+
+        padding-left: 36px;
+        padding-bottom: 50px;
+
+    }
+
+    &__input{
+        width: 441px;
+        height: 50px;
+        border-radius: 12px;
+        border: 1px solid #A3ACBE;
+        padding-left: 10px;
+    }
+
+    &__button{
+        background: rgba(77, 209, 230, 0.3);
+        border-radius: 15px;
+        width: 453px;
+        height: 50px;
+        color: #03A5C4;
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        border: none;
+    }
+
+    img{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+    }
+}

@@ -1,0 +1,54 @@
+.footer{
+    height: 104px;
+    padding-top: 46px;
+    border-top:1px solid #A3ACBE;;
+    &__container{
+        width: 75%;
+        margin: auto;
+
+        position: relative;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    &__links{
+        display: flex;
+        align-items: center;
+
+        width: 180px;
+        justify-content: space-between;
+    }
+    &__position{
+        display: flex;
+        align-items: flex-start;
+
+        width: 235px;
+        justify-content: space-between;   
+    }
+    &__about{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #03A5C4;
+        text-decoration: none;
+    }
+    &__adress{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #414052;
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    &__logo{
+        margin: auto;
+        display: block;
+        margin-top: 15px;
+    }
+}

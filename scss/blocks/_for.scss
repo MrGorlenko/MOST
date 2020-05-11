@@ -1,0 +1,42 @@
+.for{
+    &__features{
+        width: 775px;
+    }
+    &__performance{
+        cursor: pointer;
+        width: 45%;
+        display: block;
+        &:first-child{
+            width: 30%;
+        }
+        &:last-child{
+            width: 25%;
+        }
+    }
+    &__content{
+        display: flex;
+        margin: auto;
+        width: 80%;
+    }
+    &__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__label{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #414052;
+        padding-left: 20px;
+    }
+    &__list{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #9796A0;
+        width: 582px;
+    }
+}

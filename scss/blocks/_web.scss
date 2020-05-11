@@ -1,0 +1,85 @@
+.web{
+    &__brouser{
+        margin: auto;
+        display: block;
+        margin-top: 50px;
+    }
+    &__features{
+        width: 600px;
+    }
+    &__performance{
+        &_acc{
+            width: 335px;
+        }
+    }
+    &__container{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 95%;
+        position: relative;
+        margin-bottom: 70px;
+    }
+    &__descriptions{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 430px;
+        margin-top: 70px;
+        position: relative;
+    }
+    &__block{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    &__icon{
+        box-shadow: 0px 5px 15px rgba(33, 144, 175, 0.25);
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    &__label{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #414052;
+        width: 225px;
+    }
+    &__paragraph{
+        font-family: Circe;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        color: #9796A0;
+        width: 280px;
+        margin-bottom: 23px;
+    }
+    &__img{
+        width: 50%;
+    }
+    &__try{
+        width: 270px;
+        height: 60px;
+        background: rgba(77, 209, 230, 0.3);
+        border-radius: 15px;
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: #03A5C4;
+        text-align: center;
+        // text-decoration: underline;
+
+        position: absolute;
+        left: 0;
+        bottom: -95px;
+    }
+}

@@ -1,0 +1,43 @@
+.distinguishes{
+    background: linear-gradient(180deg, #F7F7F7 44.06%, rgba(243, 243, 243, 0) 100%);
+    transform: rotate(4deg);
+    padding-top: 30px;
+    margin-bottom: 90px;
+    &__title{
+        transform: rotate(-4deg);
+        margin-top: 30px;
+    }
+    &__container{
+        transform: rotate(-4deg);
+        width: 85%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+        border-radius: 15px;
+
+        display: flex;
+        flex-wrap: wrap;
+        height: 290px;
+
+        justify-content: space-around;
+        align-items: center;
+
+        margin: auto;
+    }
+    &__item{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        width: 45%;
+
+        height: 80px;
+
+        display: flex;
+        align-items: center;
+    }
+    &__label{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}

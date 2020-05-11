@@ -1,0 +1,66 @@
+.hero{
+    &__bg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 60%;
+    }
+    &__title{
+        margin-top: 150px;
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 61.7674px;
+        line-height: 74px;
+        color: #03A5C4;
+    }
+    &__about{
+        width: 461px;
+        height: 115px;
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        color: #9796A0;
+    }
+    &__buttons{
+        display: flex;
+        width: 368px;
+        justify-content: space-between;
+    }
+    &__btn{
+        width: 170px;
+        height: 52px;
+        background: #000000;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        position: relative;
+        font-family: Roboto;
+        img{
+            position: absolute;
+            left: 11px;
+            top: 7px;
+        }
+    }
+    &__download{
+        display: block;
+        color: #FFFFFF;
+        position: absolute;
+        top: 10px;
+        left: 45px;
+        font-size: 11px;
+    }
+    &__company{
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 5px;
+        left: 45px;
+        font-size: 20px;
+    }
+}
+
+.hero__title, .hero__about, .hero__buttons{
+    padding-left: 48px;
+}
