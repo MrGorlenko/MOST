@@ -126,3 +126,11 @@
 .left-price-68{
     left: 68% !important;
 }
+
+@media (max-width: 576px){
+    .section{
+        &__title{
+            font-size: 26px;
+        }
+    }
+}

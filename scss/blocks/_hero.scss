@@ -63,3 +63,74 @@
 .hero__title, .hero__about, .hero__buttons{
     padding-left: 48px;
 }
+
+
+
+@media (max-width: 1200px){
+    .hero{
+        &__bg{
+            width: 800px;
+        }
+        &__title{
+            margin-top: 220px;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    @media (max-width: 1200px){
+        .hero{
+            &__bg{
+                width: 600px;
+            }
+            &__title{
+                font-size: 40px;
+            }
+            &__about{
+                font-size: 18px;
+                width: 377px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .hero{
+        &__bg{
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .hero{
+        &__bg{
+            width: 260px;
+            top: -15px;
+        }
+
+        &__title{
+            text-align: center;
+            margin-bottom: 0;
+
+            margin-top: 140px;
+        }
+
+        &__about{
+            margin: auto;
+            font-size: 16px;
+            width: 300px;
+        }
+
+        &__buttons{
+            margin: auto;
+            flex-direction: column;
+            width: fit-content;
+            height: 120px;
+        }
+    }
+
+    .hero__title, .hero__about, .hero__buttons{
+        padding-left: 0px;
+    }
+}
