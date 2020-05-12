@@ -38,12 +38,20 @@
     padding-left: 7px;
     padding-right: 7px;
     margin-bottom: 56px;
+    transition: .5s ease-in-out;
+    transition-property: color,background-color,border-color,box-shadow;
+
+    position: relative;
+
     &_active{
         color: #03A5C4 !important;
-        background: rgba(3, 165, 196, 0.3);
-        border-radius: 15px;
+        // background: rgba(3, 165, 196, 0.3);
+        // border-radius: 15px;
 
         @include one-s-animation;
+
+        transition: .5s ease-in-out;
+    transition-property: color,background-color,border-color,box-shadow;
 
     }
     &__performance{
@@ -65,4 +73,56 @@
         @include one-s-animation;
 
     }
+}
+
+.blue{
+
+    // color: #03A5C4 !important;
+        background: rgba(3, 165, 196, 0.3);
+        border-radius: 15px;
+        width: 50%;
+        height: 95%;
+
+        position: absolute;
+
+        left: 1%;
+
+        transition: 1s ease;
+
+}
+
+#blue-for{
+    width: 30%;
+}
+
+.width-38{
+    width: 38% !important;
+}
+
+.width-27{
+    width: 27% !important;
+}
+
+.left-mobile{
+    left:49%;
+}
+
+.left-for-32{
+    left: 32%;
+}
+
+.left-for-72{
+    left: 72%;
+}
+
+.right-price-50{
+    right: 50% !important;
+}
+
+.left-price-35{
+    left: 35% !important;
+}
+
+.left-price-68{
+    left: 68% !important;
 }

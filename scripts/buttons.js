@@ -8,6 +8,7 @@ $(document).ready(function(){
         $(this).addClass('features_active');
         $('#mobile-performance').removeClass('features_active');
 
+        $('#blue-mobile').addClass('left-mobile')
 
     })
 
@@ -15,6 +16,8 @@ $(document).ready(function(){
 
         $(this).addClass('features_active');
         $('#mobile-exchange').removeClass('features_active');
+
+        $('#blue-mobile').removeClass('left-mobile')
 
     })
 
@@ -26,6 +29,8 @@ $(document).ready(function(){
         $(this).addClass('features_active');
         $('#web-performance').removeClass('features_active');
 
+        $('#blue-web').addClass('left-mobile');
+
 
     })
 
@@ -33,6 +38,8 @@ $(document).ready(function(){
 
         $(this).addClass('features_active');
         $('#web-encrichment').removeClass('features_active');
+
+        $('#blue-web').removeClass('left-mobile');
 
     })
 
@@ -44,6 +51,12 @@ $(document).ready(function(){
         $('#for-business').removeClass('features_active');
         $('#for-event').removeClass('features_active');
 
+        $('#blue-for').removeClass('left-for-72');
+        $('#blue-for').removeClass('left-for-32');
+
+        $('#blue-for').removeClass('width-38');
+        $('#blue-for').removeClass('width-27');
+
 
     })
 
@@ -52,6 +65,12 @@ $(document).ready(function(){
         $(this).addClass('features_active');
         $('#for-enterprices').removeClass('features_active');
         $('#for-event').removeClass('features_active');
+
+        $('#blue-for').removeClass('left-for-72');
+        $('#blue-for').addClass('left-for-32');
+
+        $('#blue-for').addClass('width-38');
+        $('#blue-for').removeClass('width-27');
 
 
     })
@@ -62,6 +81,11 @@ $(document).ready(function(){
         $('#for-business').removeClass('features_active');
         $('#for-enterprices').removeClass('features_active');
 
+        $('#blue-for').addClass('left-for-72');
+        $('#blue-for').removeClass('left-for-32');
+
+        $('#blue-for').addClass('width-27');
+        $('#blue-for').removeClass('width-38');
 
     })
 
@@ -74,6 +98,11 @@ $(document).ready(function(){
         $('#annually').addClass('price__passive');
         $('#benefit').addClass('price__invisible');
         $('#benefit').removeClass('price__visible');
+
+        $('#white-left').addClass('right-price-50')
+
+        // <div id='white-left' class="white white_left"></div>
+
     })
 
     $('#annually').on('click', function(){
@@ -83,6 +112,8 @@ $(document).ready(function(){
         $('#monthly').addClass('price__passive');
         $('#benefit').removeClass('price__invisible');
         $('#benefit').addClass('price__visible');
+
+        $('#white-left').removeClass('right-price-50')
     })
     
     /* CURRENCY */
@@ -96,6 +127,24 @@ $(document).ready(function(){
         $('#EUR').removeClass('price__active');
         $('#USD').removeClass('price__active');
 
+        $('#white-right').removeClass('left-price-35');
+        $('#white-right').removeClass('left-price-68');
+
+    })
+
+
+    $('#USD').on('click', function(){
+
+        $(this).addClass('price__active');
+        $(this).removeClass('price__passive');
+        $('#EUR').addClass('price__passive');
+        $('#RUB').addClass('price__passive');
+        $('#EUR').removeClass('price__active');
+        $('#RUB').removeClass('price__active');
+
+        $('#white-right').addClass('left-price-35');
+        $('#white-right').removeClass('left-price-68');
+
     })
 
     $('#EUR').on('click', function(){
@@ -107,16 +156,8 @@ $(document).ready(function(){
         $('#RUB').removeClass('price__active');
         $('#USD').removeClass('price__active');
 
-    })
-
-    $('#USD').on('click', function(){
-
-        $(this).addClass('price__active');
-        $(this).removeClass('price__passive');
-        $('#EUR').addClass('price__passive');
-        $('#RUB').addClass('price__passive');
-        $('#EUR').removeClass('price__active');
-        $('#RUB').removeClass('price__active');
+        $('#white-right').removeClass('left-price-35');
+        $('#white-right').addClass('left-price-68');
 
     })
 

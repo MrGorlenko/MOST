@@ -1,0 +1,31 @@
+.slider{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    min-height: 630px;
+}
+
+.mobile__container{
+    position: absolute;
+    top: 0;
+}
+
+.web__container{
+    position: absolute;
+    top: 0;
+}
+
+.for__content{
+    position: absolute;
+    top:0;
+}
+
+.none-opacity{
+    opacity: 0;
+    transition: 1s ease-out;
+}
+
+.full-opacity{
+    opacity: 1;
+    transition: 1s ease-in;
+}

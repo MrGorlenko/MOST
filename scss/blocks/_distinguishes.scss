@@ -2,11 +2,11 @@
     overflow: hidden;
 
     &__title{
-        transform: rotate(-4deg);
+        transform: rotate(-2deg);
         margin-top: 30px;
     }
     &__container{
-        transform: rotate(-4deg);
+        transform: rotate(-2deg);
         width: 85%;
         background: #FFFFFF;
         box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
@@ -25,18 +25,20 @@
         &_global{
 
             background: linear-gradient(180deg, #F7F7F7 44.06%, rgba(243, 243, 243, 0) 100%);
-            transform: rotate(4deg);
+            transform: rotate(2deg);
             padding-top: 30px;
             margin-bottom: 90px;
 
             width: 100%;
+
+            margin-top: 50px;
         }
 
 
     }
     &__item{
         background: #FFFFFF;
-        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        
         border-radius: 15px;
         width: 45%;
 
@@ -44,6 +46,13 @@
 
         display: flex;
         align-items: center;
+
+        transition: 0.2s ease-in-out;
+
+        &:hover{
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            transition: 0.2s ease-in-out;
+        }
     }
     &__label{
         font-family: TT Chocolates;

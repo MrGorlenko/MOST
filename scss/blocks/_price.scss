@@ -22,6 +22,7 @@
         animation: 1s;
 }
 
+
 .price{
     background-image: rgba(243, 243, 243, 0);
     &__title{
@@ -43,7 +44,7 @@
         width: 40%;
         height: 22px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
 
         position: relative;
@@ -62,12 +63,15 @@
         width: 40%;
         height: 22px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+
+        position: relative;
     }
 
     &__invisible{
         @include invisible;
+        
     }
 
     &__visible{
@@ -75,7 +79,6 @@
     }
 
     &__passive{
-        font-family: TT Chocolates;
         font-style: normal;
         font-weight: 500;
         font-size: 13px;
@@ -92,6 +95,14 @@
         color: #FFFFFF;
 
         cursor: pointer;
+
+        transition: .5s ease-out;
+        transition-property: color,background-color,border-color,box-shadow;
+
+        &_right{
+            width:33% !important;
+        }
+
     }
     &__active{
         font-family: TT Chocolates;
@@ -101,18 +112,21 @@
         line-height: 16px;
         color: #03A5C4;
 
-        background: #FFFFFF;
-        box-shadow: 0px 5px 18px rgba(200, 205, 217, 0.6);
-        border-radius: 14px;
+        z-index: 2;
 
         width: 40%;
-        height: 28px;
 
         display: flex;
         align-items: center;  
         justify-content: center;
 
         cursor: pointer;
+
+        transition: .5s ease-out;
+        transition-property: color,background-color,border-color,box-shadow;   
+        &_right{
+            width: 33%;
+        }
     }
 
 
@@ -125,11 +139,13 @@
         margin-top: 40px;
     }
     &__table{
+
+        border: 1px solid rgba($color: #000000, $alpha: .1);
+
         width: 270px;
         height: 350px;
 
         background: #FFFFFF;
-        box-shadow: 0px 5px 18px rgba(200, 205, 217, 0.6);
         border-radius: 12px;
 
         display: flex;
@@ -137,6 +153,13 @@
         align-items: center;
 
         padding-bottom: 10px;
+
+        transition: .5s ease-in-out;
+
+        &:hover{
+            box-shadow: 0px 5px 18px rgba(200, 205, 217, 0.6);
+            transition: .5s ease-in-out;
+        }
     }
     &__subtitle{
         background: linear-gradient(90deg, #34ABBE 0%, #4DD1E6 100%);
@@ -218,5 +241,23 @@
         display: flex;
         justify-content: space-between;
         margin-top: 10px;
+    }
+}
+
+.white{
+    background: #FFFFFF;
+    border-radius: 14px;
+    height: 28px;
+    position: absolute;
+    box-shadow: 0px 5px 18px rgba(200, 205, 217, 0.6);
+
+    transition: .5s ease;
+    &_left{
+        width: 50%;
+        right: 0;
+    }
+    &_right{
+        width: 30%;
+        left: 0;
     }
 }

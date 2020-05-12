@@ -4,19 +4,24 @@
     }
     &__performance{
         cursor: pointer;
-        width: 45%;
         display: block;
-        &:first-child{
-            width: 30%;
+
+        &_first{
+            width: 33%;
         }
-        &:last-child{
-            width: 25%;
+        &_second{
+            width: 48%;
+        }
+        &_third{
+            width: 30%;
         }
     }
     &__content{
         display: flex;
         margin: auto;
-        width: 80%;
+        width: 100%;
+
+        justify-content: space-around
     }
     &__left{
         display: flex;
