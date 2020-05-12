@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/css/normalize.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script   src="https://code.jquery.com/jquery-3.5.1.min.js"   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="   crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -77,8 +78,8 @@
         <img src="img/mobile/phone.svg" alt="" class="mobile__phone">
         <h2 class="mobile__title section__title">Mobile features</h2>
         <div class="features">
-            <span class="features__performance features_active">performance control</span>
-            <span class="features__performance">exchange & store</span>
+            <span id='mobile-performance' class="features__performance features_active">performance control</span>
+            <span id='mobile-exchange' class="features__performance">exchange & store</span>
         </div>
         <div class="mobile__container">
             <div class="mobile__descriptions">
@@ -112,8 +113,8 @@
         <img src="img/web/web.svg" alt="" class="web__brouser">
         <h2 class="section__title">Web functionality</h2>
         <div class="web__features features">
-            <span class="features__performance features_active">performance analytics</span>
-            <span class="features__performance web__performance_acc">enrichment & accesability</span>
+            <span id='web-performance' class="features__performance features_active">performance analytics</span>
+            <span id='web-encrichment' class="features__performance web__performance_acc">enrichment & accesability</span>
         </div>
         <div class="web__container">
             <div class="web__descriptions">
@@ -147,9 +148,9 @@
         <div class="for__container">
             <h2 class="section__title">MOST is built for</h2>
             <div class="for__features features">
-                <span class="for__performance features__performance features_active">large enterprices</span>
-                <span class="for__performance features__performance">small & medium businesses</span>
-                <span class="for__performance features__performance">event organizers</span>
+                <span id='for-enterprices' class="for__performance features__performance features_active">large enterprices</span>
+                <span id='for-business' class="for__performance features__performance">small & medium businesses</span>
+                <span id='for-event' class="for__performance features__performance">event organizers</span>
             </div>
             <div class="for__content">
                 <div class="for__left">
@@ -166,23 +167,25 @@
     </section>
 
     <section class="distinguishes">
-        <h2 class="distinguishes__title section__title">What makes us different</h2>
-        <div class="distinguishes__container">
-            <div class="distinguishes__item">
-                <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
-                <span class="distinguishes__label">client-centric user interface</span>
-            </div>
-            <div class="distinguishes__item">
-                <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
-                <span class="distinguishes__label">business development performance analysis</span>
-            </div>
-            <div class="distinguishes__item">
-                <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
-                <span class="distinguishes__label">direct & lossless information flow</span>
-            </div>
-            <div class="distinguishes__item">
-                <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
-                <span class="distinguishes__label">contact enrichment & automated updates</span>
+        <div class="distinguishes__container_global">
+            <h2 class="distinguishes__title section__title">What makes us different</h2>
+            <div class="distinguishes__container">
+                <div class="distinguishes__item">
+                    <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
+                    <span class="distinguishes__label">client-centric user interface</span>
+                </div>
+                <div class="distinguishes__item">
+                    <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
+                    <span class="distinguishes__label">business development performance analysis</span>
+                </div>
+                <div class="distinguishes__item">
+                    <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
+                    <span class="distinguishes__label">direct & lossless information flow</span>
+                </div>
+                <div class="distinguishes__item">
+                    <img src="img/distinguishes/success.png" alt="" class="distinguishes__success">
+                    <span class="distinguishes__label">contact enrichment & automated updates</span>
+                </div>
             </div>
         </div>
     </section>
@@ -192,14 +195,14 @@
 
         <div class="price__btns">
             <div class="price__left">
-                <img src="img/price/save.svg" alt="">
-                <span class="price__passive">Monthly</span>
-                <span class="price__active">Annually</span>
+                <img id='benefit' src="img/price/save.svg" alt="">
+                <span id='monthly' class="price__passive">Monthly</span>
+                <span id='annually' class="price__active">Annually</span>
             </div>
             <div class="price__right">
-                <span class="price__active">RUB</span>
-                <span class="price__passive">USD</span>
-                <span class="price__passive">EUR</span>
+                <span id='RUB' class="price__active">RUB</span>
+                <span id='USD' class="price__passive">USD</span>
+                <span id='EUR' class="price__passive">EUR</span>
             </div>
         </div>
 
@@ -316,5 +319,8 @@
         <img src="img/footer/most.svg" alt="" class="footer__logo">
     </footer>
     
+
+
+    <script src='scripts/buttons.js'></script>
 </body>
 </html>

@@ -7,11 +7,6 @@
     &__features{
         width: 600px;
     }
-    &__performance{
-        &_acc{
-            width: 335px;
-        }
-    }
     &__container{
         display: flex;
         flex-direction: row-reverse;
@@ -73,10 +68,9 @@
         line-height: 46px;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         color: #03A5C4;
         text-align: center;
-        // text-decoration: underline;
 
         position: absolute;
         left: 0;
