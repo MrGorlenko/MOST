@@ -23,6 +23,10 @@
 
         justify-content: space-around
     }
+    &__slider{
+        min-height: auto !important;
+        height: 400px;
+    }
     &__left{
         display: flex;
         flex-direction: column;
@@ -43,5 +47,92 @@
         font-size: 18px;
         color: #9796A0;
         width: 582px;
+    }
+    &__img{
+        box-shadow: 0px 4px 30px rgba(3, 165, 196, 0.4);
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 1200px){
+    .for{
+        &__img{
+            width: 400px;
+        }
+        &__list{
+            width: 450px;
+            li{
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .for{
+        &__features{
+            width: 290px;
+            height: 132px;
+            flex-direction: column;
+        }
+        &__performance{
+            width: 100%;
+        }
+        &__content{
+            flex-direction: column-reverse;
+            align-items: center;
+            height: 600px;
+        }
+        &__slider{
+            height: 600px;
+        }
+    }
+
+    #blue-for{
+        width: 100%;
+        height: 33%;
+        top: 0;
+    }
+
+    .left-for-32{
+        top: 33% !important;
+        left: 0;
+    }
+    
+    .left-for-72{
+        top: 66% !important;
+        left: 0;
+    }
+
+    .width-38{
+        width: 100% !important;
+    }
+    
+    .width-27{
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 576px){
+    .for{
+        &__label{
+            width: 320px;
+            font-size: 24px;
+            padding-left: 0;
+            text-align: center;
+        }
+        &__list{
+            width: 280px;
+            padding-left: 25px;
+            font-size: 17px;
+            li{
+                line-height: 17px;
+                margin-bottom: 10px;
+            }
+        }
+        &__img{
+            width: 320px;
+        }
     }
 }

@@ -78,17 +78,23 @@
 
 @media (max-width: 1300px){
     .mobile{
+        &__container{
+            height: 600px;
+        }
         &__block{
             width: 48%;
         }
         &__paragraph{
             width: 255px;
         }
+        &__img{
+            height: 550px;
+        }
     }
 }
 
 @media (max-width: 1200px){
-    .mobile{
+    .slider{
         &__container{
             height: 620px;
         }
@@ -140,8 +146,52 @@
     .mobile{
         &__container{
             flex-direction: column-reverse;
-            height: 1090px;
+            height: 990px;
             align-items: center;
+        }
+        &__try{
+            display: none;
+        }
+
+        &__descriptions{
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .mobile{
+        &__container{
+            height: 780px;
+        }
+        &__img{
+            width: 310px;
+            height: 320px;
+        }
+        &__phone{
+            margin-top: 15px;
+        }
+        &__block{
+            width: 50%;
+            height: 180px;
+        }
+        &__descriptions{
+            width: 310px;
+            margin-top: 25px;
+            height: 375px;
+        }
+        &__label{
+            font-size: 16px;
+            line-height: 18px;
+            width: 100%;
+        }
+        &__paragraph{
+            width: 90%;
+            font-size: 9px;
+        }
+        &__icon{
+            width: 45px;
+            height: 45px;
         }
     }
 }

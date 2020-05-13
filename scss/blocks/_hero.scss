@@ -6,13 +6,13 @@
         z-index: -1;
     }
     &__title{
-        margin-top: 150px;
         font-family: TT Chocolates;
         font-style: normal;
         font-weight: bold;
         font-size: 61.7674px;
         line-height: 74px;
         color: #03A5C4;
+        margin-top: 225px;
     }
     &__about{
         width: 461px;
@@ -124,9 +124,23 @@
 
         &__buttons{
             margin: auto;
-            flex-direction: column;
-            width: fit-content;
-            height: 120px;
+            width: 300px;
+        }
+
+        &__btn{
+            width: 140px;
+            height: 40px;
+
+            img{
+                left: 9px;
+                top: 3px;
+            }
+        }
+        &__download{
+            top: 5px;
+        }
+        &__company{
+            font-size: 15px;
         }
     }
 

@@ -58,7 +58,7 @@
         font-family: TT Chocolates;
         font-style: normal;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 30px;
         padding: 3px 14px;
         width: 250px;
@@ -127,7 +127,123 @@
     left: 68% !important;
 }
 
+.left-comments-200{
+    left: 200px !important;
+}
+
+.left-comments-350{
+    left: 350px !important;
+}
+
+.left-comments-450{
+    left: 450px !important;
+}
+
+@media (max-width: 992px){
+    .features{
+        height: 88px;
+        flex-direction: column;
+        width: 290px;
+        &__performance{
+            width: 100%;
+            padding: 6px 14px;
+        }
+    }
+
+    .blue{
+        height: 50%;
+        width: 100%;
+        top: 0;
+    }
+
+    .left-mobile{
+        top:49%;
+        left: 0;
+    }
+}
+
+
+@media (max-width: 1250px){
+    .slider{
+        &__container{
+            height: 620px;
+        }
+        &__block{
+            width: 48%;
+        }
+        &__paragraph{
+            width: 255px;
+        }
+        &__img{
+            width: 500px;
+            height: 510px;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    
+    .slider{
+        &__container{
+            height: 620px;
+        }
+        &__block{
+            width: 48%;
+        }
+        &__paragraph{
+            width: 210px;
+            font-size: 14px;
+        }
+        &__img{
+            width: 500px;
+            height: 510px;
+            display: block;
+        }
+
+        &__try{
+            width: 240px;
+            height: 45px;
+
+            font-size: 33px;
+
+        }
+    }
+
+    .left-comments-200 {
+        left: 35% !important;
+    }
+    .left-comments-350 {
+        left: 60% !important;
+    }
+    .left-comments-450 {
+        left: 82% !important;
+    }
+}
+
+
+
+@media (max-width: 992px){
+    
+    .slider{
+        min-height: 990px !important;
+        
+    }
+}
+
+
+
 @media (max-width: 576px){
+    
+    .slider{
+        min-height: 780px !important;
+        
+    }
+
+    .features{
+        margin-bottom: 0;
+    }
+
     .section{
         &__title{
             font-size: 26px;

@@ -52,3 +52,23 @@
         margin-top: 15px;
     }
 }
+
+@media (max-width: 768px){
+    .footer{
+        padding-top: 0;
+        &__container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            height: 135px;
+            width: 310px;
+        }
+        &__position{
+            margin-top: 20px;
+        }
+        &__adress{
+            bottom: -7px;
+        }
+    }
+}

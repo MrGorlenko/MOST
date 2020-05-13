@@ -86,4 +86,56 @@ $(document).ready(function(){
 
     })
 
+
+        /* COMMENTS */
+
+    $('#azimut').on('click', function(){
+
+        $('#first-com').removeClass('none-opacity');
+        $('#second-com').addClass('none-opacity');
+        $('#third-com').addClass('none-opacity');
+        $('#forth-com').addClass('none-opacity');
+
+    })
+    
+    $('#staffiet').on('click', function(){
+
+        $('#first-com').addClass('none-opacity');
+        $('#second-com').removeClass('none-opacity');
+        $('#third-com').addClass('none-opacity');
+        $('#forth-com').addClass('none-opacity');
+
+    })
+    
+    $('#sinto').on('click', function(){
+
+        $('#first-com').addClass('none-opacity');
+        $('#second-com').addClass('none-opacity');
+        $('#third-com').removeClass('none-opacity');
+        $('#forth-com').addClass('none-opacity');
+
+    })
+    
+    $('#accenture').on('click', function(){
+
+        $('#first-com').addClass('none-opacity');
+        $('#second-com').addClass('none-opacity');
+        $('#third-com').addClass('none-opacity');
+        $('#forth-com').removeClass('none-opacity');
+
+    })
+
+
+//     <div id='first-com' class="comments__slider-block">
+
+
+// <div id='second-com' class="comments__slider-block none-opacity">
+
+
+// <div id='third-com' class="comments__slider-block none-opacity">
+
+
+// <div id='forth-com' class="comments__slider-block none-opacity">
+
+
 })

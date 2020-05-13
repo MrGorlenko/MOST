@@ -7,6 +7,9 @@
     &__features{
         width: 600px;
     }
+    &__slider{
+        width: 100% !important;
+    }
     &__container{
         display: flex;
         flex-direction: row-reverse;
@@ -27,7 +30,7 @@
         width: 50%;
         display: flex;
         flex-direction: column;
-        height: 200px;
+        height: 250px;
     }
     &__icon{
         box-shadow: 0px 5px 15px rgba(33, 144, 175, 0.25);
@@ -39,8 +42,8 @@
         font-family: TT Chocolates;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 19px;
+        line-height: 21px;
         color: #414052;
         width: 225px;
     }
@@ -51,7 +54,7 @@
         font-size: 16px;
         line-height: 100%;
         color: #9796A0;
-        width: 280px;
+        width: 95%;
         margin-bottom: 23px;
     }
     &__img{
@@ -75,6 +78,115 @@
 
         position: absolute;
         left: 0;
-        bottom: -95px;
+        bottom: -120px;
+    }
+}
+
+// @media (max-width: 992px){
+    // .web{
+        // &__paragraph{
+        //     width: 100%;
+        // }
+
+        // &__try{
+        //     display: none;
+        // }
+    // }
+// }
+
+@media (max-width: 1100px){
+    
+    .web{
+        &__container{
+            height: 620px;
+        }
+        &__block{
+            width: 50%;
+        }
+        &__paragraph{
+            width: 210px;
+            font-size: 14px;
+        }
+        &__img{
+            height: 510px;
+            display: block;
+        }
+
+        &__try{
+            width: 240px;
+            height: 45px;
+
+            font-size: 33px;
+
+        }
+    }
+}
+
+@media (max-width: 992px){
+    
+    .web{
+        &__container{
+            flex-direction: column-reverse;
+            height: 920px;
+            align-items: center;
+        }
+        &__try{
+            display: none;
+        }
+
+        &__descriptions{
+            width: 500px;
+        }
+
+        &__paragraph{
+            width: 100%;
+        }
+
+        &__try{
+            display: none;
+
+        }
+        &__img{
+            width: auto;
+            height: 410px;
+        }
+        
+    }
+}
+
+@media (max-width: 576px){
+    .web{
+        &__container{
+            height: 780px;
+        }
+        &__img{
+            width: 315px;
+            height: 320px;
+        }
+        &__phone{
+            margin-top: 15px;
+        }
+        &__block{
+            width: 50%;
+            height: 180px;
+        }
+        &__descriptions{
+            width: 310px;
+            margin-top: 25px;
+            height: 375px;
+        }
+        &__label{
+            font-size: 16px;
+            line-height: 18px;
+            width: 100%;
+        }
+        &__paragraph{
+            width: 90%;
+            font-size: 9px;
+        }
+        &__icon{
+            width: 45px;
+            height: 45px;
+        }
     }
 }

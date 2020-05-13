@@ -101,7 +101,6 @@ $(document).ready(function(){
 
         $('#white-left').addClass('right-price-50')
 
-        // <div id='white-left' class="white white_left"></div>
 
     })
 
@@ -159,6 +158,32 @@ $(document).ready(function(){
         $('#white-right').removeClass('left-price-35');
         $('#white-right').addClass('left-price-68');
 
+    })
+
+    /* COMMENTS */
+
+    $('#azimut').on('click', function(){
+        $('.comments__line').removeClass('left-comments-200');
+        $('.comments__line').removeClass('left-comments-350');
+        $('.comments__line').removeClass('left-comments-450');
+    })
+
+    $('#staffiet').on('click', function(){
+        $('.comments__line').addClass('left-comments-200');
+        $('.comments__line').removeClass('left-comments-350');
+        $('.comments__line').removeClass('left-comments-450');
+    })
+
+    $('#sinto').on('click', function(){
+        $('.comments__line').removeClass('left-comments-200');
+        $('.comments__line').addClass('left-comments-350');
+        $('.comments__line').removeClass('left-comments-450');
+    })
+
+    $('#accenture').on('click', function(){
+        $('.comments__line').removeClass('left-comments-200');
+        $('.comments__line').removeClass('left-comments-350');
+        $('.comments__line').addClass('left-comments-450');
     })
 
 })
