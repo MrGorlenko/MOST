@@ -17,6 +17,10 @@
         position: relative;
         margin-bottom: 70px;
 
+        &_second{
+            flex-direction: row;
+        }
+
     }
     &__descriptions{
         display: flex;
@@ -25,6 +29,11 @@
         height: 430px;
         margin-top: 70px;
         position: relative;
+
+        &_second{
+            padding-left: 2%;
+        }
+
     }
     &__block{
         width: 50%;
@@ -59,6 +68,10 @@
     }
     &__img{
         width: 50%;
+        &_second{
+            width: 48%;
+            height: 80%;
+        }
     }
     &__try{
         width: 270px;
@@ -79,20 +92,13 @@
         position: absolute;
         left: 0;
         bottom: -120px;
+
+        &_second{
+            left: 4%;
+        }
+
     }
 }
-
-// @media (max-width: 992px){
-    // .web{
-        // &__paragraph{
-        //     width: 100%;
-        // }
-
-        // &__try{
-        //     display: none;
-        // }
-    // }
-// }
 
 @media (max-width: 1100px){
     
