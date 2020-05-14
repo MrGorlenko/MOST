@@ -1,11 +1,13 @@
 .comments{
+    min-height:545px;;
     &__container{
         width: 100%;
 
         display: flex;
     }
     &_img{
-        width: 50%;
+        width: 48%;
+        padding-left: 2%;
     }
     &__title{
         text-align: left;
@@ -16,7 +18,8 @@
         display: flex;
         flex-direction: column;
         height: 450px;
-        width: 50%;
+        width: 48%;
+        padding-left: 2%;
     }
     &__companies{
         display: flex;
@@ -30,6 +33,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+
+        cursor: pointer;
     }
     &__line{
         background: #03A5C4;
@@ -130,9 +135,11 @@
 
         &_img{
             width: 500px;
+            padding-left: 0;
         }
         &__block{
             width: 500px;
+            padding-left: 0;
         }
 
         &__slider-block{

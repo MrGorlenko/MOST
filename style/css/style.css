@@ -1,3 +1,7 @@
+img {
+  image-rendering: optimizeSpeed;
+}
+
 .section__title {
   font-family: TT Chocolates;
   font-style: normal;
@@ -1414,13 +1418,18 @@
   }
 }
 
+.comments {
+  min-height: 545px;
+}
+
 .comments__container {
   width: 100%;
   display: flex;
 }
 
 .comments_img {
-  width: 50%;
+  width: 48%;
+  padding-left: 2%;
 }
 
 .comments__title {
@@ -1432,7 +1441,8 @@
   display: flex;
   flex-direction: column;
   height: 450px;
-  width: 50%;
+  width: 48%;
+  padding-left: 2%;
 }
 
 .comments__companies {
@@ -1448,6 +1458,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .comments__line {
@@ -1542,9 +1553,11 @@
   }
   .comments_img {
     width: 500px;
+    padding-left: 0;
   }
   .comments__block {
     width: 500px;
+    padding-left: 0;
   }
   .comments__slider-block {
     width: 500px;
