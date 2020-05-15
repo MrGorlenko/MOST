@@ -1,0 +1,113 @@
+.reasons-2{
+    &__title{
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 84px;
+        text-align: center;
+        color: #03A5C4;
+    }
+    &__img{
+        width: 90%;
+    }
+
+    &__container{
+        height: 290px;
+        width: 80%;
+        margin-bottom: 70px;
+    }
+
+    &__block{
+        box-shadow: none;
+        &:hover{
+            box-shadow: none;
+        }
+        img{
+            &:hover{
+                box-shadow: none;
+            }
+        }
+    }
+
+    &__paragraph{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+        color: #1A1B1F;
+        width: 775px;
+        margin: auto;
+        span{
+            color: #03A5C4;
+        }
+    }
+
+}
+
+@media (max-width: 1200px){
+    .reasons-2{
+        &__container{
+            margin-bottom: 0;
+        }
+        &__paragraph{
+            width: 600px;
+            font-size: 24px;
+        }
+    }
+}
+
+@media( max-width: 992px){
+    .reasons-2{
+        &__title{
+            font-size: 50px;
+        }
+        &__container{
+            height: 590px;
+        }
+        &__img{
+            width: 50%;
+        }
+        &__paragraph{
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .reasons-2{
+        &__img{
+            width: 70%;
+        }
+        &__paragraph{
+            font-size: 25px;
+            line-height: 25px;
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .reasons-2{
+        &__title{
+            margin-bottom: 0;
+        }
+        &__container{
+            height: 400px;
+            width: 315px;
+        }
+        &__img{
+            width: 150px;
+        }
+        &__block{
+            height: 150px;
+        }
+        &__title{
+            font-size: 32px;
+        }
+        &__paragraph{
+            width: 310px;
+            font-size: 18px;
+            line-height: 19px;
+        }
+    }
+}

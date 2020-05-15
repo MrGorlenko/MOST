@@ -1,0 +1,48 @@
+.form-2{
+    &__container{
+        justify-content: center;
+        transform: rotate(-2deg);
+    }
+    &__form{
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    &__button{
+        height: 58px;
+    }
+}
+
+@media (max-width: 992px){
+    .form-2{
+        &__container{
+            height: 480px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .form-2{
+        &__input{
+            width: 270px;
+            margin: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+            background: #F7F7F7;
+        }
+        &__button{
+            width: 280px;
+            margin: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+    
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .form-2{
+        &__form{
+            background: #F7F7F7;
+        }
+    }
+}

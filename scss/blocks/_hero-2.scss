@@ -2,4 +2,52 @@
     min-height: 292px;
     display: flex;
     align-items: flex-end;
+    &__bg{
+        width: 700px;
+    }
+    &__about{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+        color: #1A1B1F;
+        width: 600px;
+        span{
+            color: #03A5C4;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .hero-2{
+        &__about{
+            width: 500px;
+            font-size: 24px;
+        }
+    }
+}
+
+
+
+@media(max-width: 992px){
+    .hero-2{
+        &__bg{
+            width: 500px;
+        }
+        &__about{
+            font-size: 16px;
+            line-height: 18px;
+            width: 500px;
+
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .hero-2{
+        &__about{
+            margin-bottom: 0;
+            width: 310px;
+        }
+    }
 }
