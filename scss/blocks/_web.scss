@@ -68,6 +68,7 @@
     }
     &__img{
         width: 50%;
+        max-height: 500px;
         &_second{
             width: 48%;
             height: 80%;
@@ -116,6 +117,8 @@
         &__img{
             height: 510px;
             display: block;
+            max-height: 400px;
+            margin-top: 90px;
         }
 
         &__try{
@@ -163,11 +166,12 @@
 @media (max-width: 576px){
     .web{
         &__container{
-            height: 780px;
+            height: 660px;
         }
         &__img{
             width: 315px;
-            height: 320px;
+            max-height: 235px;
+            margin-top: 0;
         }
         &__phone{
             margin-top: 15px;

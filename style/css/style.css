@@ -582,7 +582,8 @@ img {
 }
 
 .mobile__img {
-  width: 50%;
+  width: 45%;
+  max-height: 585px;
 }
 
 .mobile__try {
@@ -790,6 +791,7 @@ img {
 
 .web__img {
   width: 50%;
+  max-height: 500px;
 }
 
 .web__img_second {
@@ -835,6 +837,8 @@ img {
   .web__img {
     height: 510px;
     display: block;
+    max-height: 400px;
+    margin-top: 90px;
   }
   .web__try {
     width: 240px;
@@ -869,11 +873,12 @@ img {
 
 @media (max-width: 576px) {
   .web__container {
-    height: 780px;
+    height: 660px;
   }
   .web__img {
     width: 315px;
-    height: 320px;
+    max-height: 235px;
+    margin-top: 0;
   }
   .web__phone {
     margin-top: 15px;
@@ -1015,6 +1020,9 @@ img {
 }
 
 @media (max-width: 576px) {
+  .for {
+    margin-top: -100px;
+  }
   .for__label {
     width: 320px;
     font-size: 24px;
