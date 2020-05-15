@@ -82,10 +82,18 @@
         }
     }
 
+    #menu-container{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
 }
 
 @media (max-width: 576px){
     .menu{
+        height: 105vh;
         &__container{
             margin-top: 45%;
         }

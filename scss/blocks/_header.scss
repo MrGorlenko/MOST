@@ -54,6 +54,14 @@
     }
 }
 
+#header-container{
+    width: 42%;
+    display: flex;
+    justify-content: inherit;
+}
+
+
+
 @media (min-width: 993px){
     .header{
         &__burger{
