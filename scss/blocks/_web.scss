@@ -167,9 +167,8 @@
 
         &__med{
             display: none;
-            position: initial;
-            margin-top: -395px;
         }
+
 
         &__descriptions{
             width: 500px;
@@ -196,6 +195,8 @@
         &__container{
             height: 660px;
         }
+
+
         &__img{
             width: 315px;
             max-height: 235px;
@@ -225,6 +226,18 @@
         &__icon{
             width: 45px;
             height: 45px;
+        }
+    }
+}
+
+@media(max-width: 390px){
+    .web{
+        &__med{
+            position: absolute;
+            display: block;
+            top: 0px;
+            width: 320px;
+            left: 0%;
         }
     }
 }

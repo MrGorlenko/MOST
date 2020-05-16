@@ -890,8 +890,6 @@ img {
   }
   .web__med {
     display: none;
-    position: initial;
-    margin-top: -395px;
   }
   .web__descriptions {
     width: 500px;
@@ -941,6 +939,16 @@ img {
   .web__icon {
     width: 45px;
     height: 45px;
+  }
+}
+
+@media (max-width: 390px) {
+  .web__med {
+    position: absolute;
+    display: block;
+    top: 0px;
+    width: 320px;
+    left: 0%;
   }
 }
 
