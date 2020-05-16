@@ -143,6 +143,11 @@ img{
     left: 450px !important;
 }
 
+.slider__try{
+    cursor: pointer;
+    z-index: 3;
+}
+
 @media (max-width: 992px){
     .features{
         height: 88px;

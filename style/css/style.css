@@ -114,6 +114,11 @@ img {
   left: 450px !important;
 }
 
+.slider__try {
+  cursor: pointer;
+  z-index: 3;
+}
+
 @media (max-width: 992px) {
   .features {
     height: 88px;
@@ -2145,6 +2150,88 @@ img {
   .distinguishes-2__grey {
     height: 4px;
     margin-top: 30px;
+  }
+}
+
+.modal {
+  width: 100%;
+  height: 105vh;
+  opacity: 0;
+  transition: .5s ease-out;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__container {
+  width: 390px;
+  height: 280px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 90px rgba(77, 77, 77, 0.5);
+  border-radius: 38px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.modal__close {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modal__title {
+  font-family: TT Chocolates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  color: #242424;
+}
+
+.modal__label {
+  width: 287px;
+  font-family: TT Chocolates;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #474747;
+}
+
+.modal-opacity {
+  opacity: 1 !important;
+  transition: .5s ease-out;
+}
+
+.modal-z-index {
+  z-index: 5 !important;
+}
+
+@media (max-width: 576px) {
+  .modal__container {
+    width: 315px;
+    padding-left: 0;
+  }
+  .modal__close {
+    right: 15px;
+    top: 15px;
+  }
+  .modal__title {
+    padding-left: 10px;
+  }
+  .modal__label {
+    padding-left: 10px;
+    width: 265px;
   }
 }
 

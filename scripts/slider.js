@@ -126,16 +126,5 @@ $(document).ready(function(){
     })
 
 
-//     <div id='first-com' class="comments__slider-block">
-
-
-// <div id='second-com' class="comments__slider-block none-opacity">
-
-
-// <div id='third-com' class="comments__slider-block none-opacity">
-
-
-// <div id='forth-com' class="comments__slider-block none-opacity">
-
 
 })
