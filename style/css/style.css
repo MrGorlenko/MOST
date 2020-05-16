@@ -2269,6 +2269,673 @@ img {
   }
 }
 
+.team {
+  min-height: 1675px;
+  position: relative;
+}
+
+.team__top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.team__top_mobile {
+  display: none;
+}
+
+.team__bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.team__bottom_mobile {
+  display: none;
+}
+
+.team__photo {
+  position: absolute;
+}
+
+.team__photo_1 {
+  left: 3%;
+  top: 14%;
+}
+
+.team__photo_2 {
+  left: 36%;
+  top: 7%;
+}
+
+.team__photo_3 {
+  right: 30%;
+  top: 19%;
+}
+
+.team__photo_4 {
+  top: 30%;
+  left: 10%;
+}
+
+.team__photo_5 {
+  top: 33%;
+  right: 35%;
+}
+
+.team__photo_6 {
+  top: 37%;
+  right: 18%;
+}
+
+.team__photo_7 {
+  top: 44%;
+  left: 31%;
+}
+
+.team__photo_8 {
+  top: 57%;
+  left: 3%;
+}
+
+.team__photo_9 {
+  top: 68%;
+  left: 29%;
+}
+
+.team__photo_10 {
+  top: 64%;
+  left: 50%;
+}
+
+.team__photo_11 {
+  top: 50%;
+  right: 20%;
+}
+
+.team__photo_12 {
+  top: 76%;
+  left: 12%;
+}
+
+.blue {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(39.4deg, #34ABBE 17.45%, #4DD1E6 83.46%);
+  box-shadow: 0px 6.75601px 15.201px rgba(70, 177, 194, 0.32);
+  border-radius: 50%;
+  font-family: TT Chocolates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40.536px;
+  line-height: 49px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue_ceo {
+  top: 20%;
+  left: 27%;
+}
+
+.blue_cto {
+  top: 24%;
+  left: 42%;
+}
+
+.blue_advisors {
+  font-size: 28px;
+  top: 31%;
+  left: 31%;
+  width: 180px;
+  height: 180px;
+}
+
+.blue_developers {
+  font-size: 20px;
+  top: 25%;
+  left: 75%;
+  width: 140px;
+  height: 140px;
+}
+
+.blue_pm {
+  width: 150px;
+  height: 150px;
+  top: 44%;
+}
+
+.blue_design {
+  width: 180px;
+  height: 180px;
+  top: 56%;
+  left: 35%;
+}
+
+.blue_qa {
+  top: 70%;
+  left: 68%;
+}
+
+@media (max-width: 1275px) {
+  .team__photo {
+    position: absolute;
+  }
+  .team__photo_1 {
+    left: 3%;
+    top: 14%;
+    width: 16%;
+  }
+  .team__photo_2 {
+    left: 30%;
+    top: 7%;
+    width: 13%;
+  }
+  .team__photo_3 {
+    right: 30%;
+    top: 19%;
+  }
+  .team__photo_4 {
+    top: 30%;
+    left: 10%;
+  }
+  .team__photo_5 {
+    top: 33%;
+    right: 37%;
+    width: 14%;
+  }
+  .team__photo_6 {
+    top: 37%;
+    right: 19%;
+    width: 14%;
+  }
+  .team__photo_7 {
+    top: 44%;
+    left: 31%;
+  }
+  .team__photo_8 {
+    top: 57%;
+    left: 3%;
+  }
+  .team__photo_9 {
+    top: 68%;
+    left: 29%;
+  }
+  .team__photo_10 {
+    top: 64%;
+    left: 50%;
+  }
+  .team__photo_11 {
+    top: 50%;
+    right: 22%;
+    width: 20%;
+  }
+  .team__photo_12 {
+    top: 76%;
+    left: 12%;
+  }
+  .blue {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(39.4deg, #34ABBE 17.45%, #4DD1E6 83.46%);
+    box-shadow: 0px 6.75601px 15.201px rgba(70, 177, 194, 0.32);
+    border-radius: 50%;
+    font-family: TT Chocolates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40.536px;
+    line-height: 49px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blue_ceo {
+    top: 20%;
+    left: 27%;
+  }
+  .blue_cto {
+    top: 24%;
+    left: 42%;
+  }
+  .blue_advisors {
+    font-size: 28px;
+    top: 31%;
+    left: 31%;
+    width: 180px;
+    height: 180px;
+  }
+  .blue_developers {
+    font-size: 20px;
+    top: 25%;
+    left: 72%;
+    width: 130px;
+    height: 130px;
+  }
+  .blue_pm {
+    width: 150px;
+    height: 150px;
+    top: 44%;
+  }
+  .blue_design {
+    width: 180px;
+    height: 180px;
+    top: 56%;
+    left: 35%;
+  }
+  .blue_qa {
+    top: 70%;
+    left: 66%;
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .team__photo {
+    position: absolute;
+  }
+  .team__photo_1 {
+    left: 3%;
+    top: 14%;
+    width: 16%;
+  }
+  .team__photo_2 {
+    left: 22%;
+    top: 7%;
+    width: 13%;
+  }
+  .team__photo_3 {
+    right: 29%;
+    top: 19%;
+  }
+  .team__photo_4 {
+    top: 30%;
+    left: 4%;
+  }
+  .team__photo_5 {
+    top: 33%;
+    right: 37%;
+    width: 14%;
+  }
+  .team__photo_6 {
+    top: 37%;
+    right: 22%;
+    width: 14%;
+  }
+  .team__photo_7 {
+    top: 44%;
+    left: 31%;
+  }
+  .team__photo_8 {
+    top: 57%;
+    left: 3%;
+  }
+  .team__photo_9 {
+    top: 68%;
+    left: 29%;
+  }
+  .team__photo_10 {
+    top: 64%;
+    left: 50%;
+    width: 15%;
+  }
+  .team__photo_11 {
+    top: 50%;
+    right: 22%;
+    width: 20%;
+  }
+  .team__photo_12 {
+    top: 75%;
+    left: 12%;
+  }
+  .blue {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(39.4deg, #34ABBE 17.45%, #4DD1E6 83.46%);
+    box-shadow: 0px 6.75601px 15.201px rgba(70, 177, 194, 0.32);
+    border-radius: 50%;
+    font-family: TT Chocolates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40.536px;
+    line-height: 49px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blue_ceo {
+    top: 20%;
+    left: 20%;
+  }
+  .blue_cto {
+    top: 24%;
+    left: 38%;
+  }
+  .blue_advisors {
+    font-size: 28px;
+    top: 32%;
+    left: 27%;
+    width: 180px;
+    height: 180px;
+  }
+  .blue_developers {
+    font-size: 20px;
+    top: 28%;
+    left: 69%;
+    width: 130px;
+    height: 130px;
+  }
+  .blue_pm {
+    width: 150px;
+    height: 150px;
+    top: 44%;
+  }
+  .blue_design {
+    width: 180px;
+    height: 180px;
+    top: 56%;
+    left: 35%;
+  }
+  .blue_qa {
+    top: 70%;
+    width: 127px;
+    height: 127px;
+    left: 64%;
+  }
+}
+
+@media (max-width: 992px) {
+  .team__top {
+    display: none;
+  }
+  .team__top_mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .team__bottom {
+    display: none;
+  }
+  .team__bottom_mobile {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+  }
+  .team__photo {
+    position: absolute;
+  }
+  .team__photo_1 {
+    left: 3%;
+    top: 14%;
+  }
+  .team__photo_2 {
+    left: 39%;
+    top: 7%;
+  }
+  .team__photo_3 {
+    right: 16%;
+    top: 14%;
+  }
+  .team__photo_4 {
+    top: 30%;
+    left: 5%;
+  }
+  .team__photo_5 {
+    top: 33%;
+    right: 35%;
+  }
+  .team__photo_6 {
+    top: 37%;
+    right: 18%;
+  }
+  .team__photo_7 {
+    top: 44%;
+    left: 40%;
+  }
+  .team__photo_8 {
+    top: 57%;
+    left: 3%;
+  }
+  .team__photo_9 {
+    top: 79%;
+    left: 58%;
+  }
+  .team__photo_10 {
+    top: 64%;
+    left: 56%;
+  }
+  .team__photo_11 {
+    top: 50%;
+    right: 9%;
+  }
+  .team__photo_12 {
+    top: 76%;
+    left: 12%;
+  }
+  .blue {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(39.4deg, #34ABBE 17.45%, #4DD1E6 83.46%);
+    box-shadow: 0px 6.75601px 15.201px rgba(70, 177, 194, 0.32);
+    border-radius: 50%;
+    font-family: TT Chocolates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40.536px;
+    line-height: 49px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blue_ceo {
+    top: 20%;
+    left: 27%;
+  }
+  .blue_cto {
+    top: 21%;
+    left: 49%;
+  }
+  .blue_advisors {
+    font-size: 28px;
+    top: 31%;
+    left: 31%;
+    width: 180px;
+    height: 180px;
+  }
+  .blue_developers {
+    font-size: 20px;
+    top: 28%;
+    left: 75%;
+    width: 140px;
+    height: 140px;
+  }
+  .blue_pm {
+    width: 150px;
+    height: 150px;
+    top: 44%;
+  }
+  .blue_design {
+    width: 180px;
+    height: 180px;
+    top: 56%;
+    left: 35%;
+  }
+  .blue_qa {
+    top: 70%;
+    left: 76%;
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    min-height: 1400px;
+  }
+  .team__top {
+    display: none;
+  }
+  .team__top_mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .team__bottom {
+    display: none;
+  }
+  .team__bottom_mobile {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+  }
+  .team__photo {
+    position: absolute;
+  }
+  .team__photo_1 {
+    left: 10%;
+    width: 136px;
+    top: 13%;
+  }
+  .team__photo_2 {
+    width: 136px;
+    left: 60%;
+    top: 4%;
+  }
+  .team__photo_3 {
+    right: 70%;
+    top: 28%;
+    width: 96px;
+  }
+  .team__photo_4 {
+    top: 39%;
+    left: 5%;
+    width: 136px;
+  }
+  .team__photo_5 {
+    top: 24%;
+    right: 38%;
+    width: 96px;
+  }
+  .team__photo_6 {
+    top: 28%;
+    right: 10%;
+    width: 96px;
+  }
+  .team__photo_7 {
+    top: 44%;
+    left: 40%;
+    width: 90px;
+    top: 73%;
+  }
+  .team__photo_8 {
+    top: 51%;
+    left: 17%;
+    width: 136px;
+  }
+  .team__photo_9 {
+    top: 45%;
+    left: 51%;
+    width: 96px;
+  }
+  .team__photo_10 {
+    top: 69%;
+    left: 14%;
+    width: 90px;
+  }
+  .team__photo_11 {
+    width: 90px;
+    top: 75%;
+    right: 9%;
+  }
+  .team__photo_12 {
+    top: 62%;
+    left: 52%;
+    width: 136px;
+  }
+  .blue {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(39.4deg, #34ABBE 17.45%, #4DD1E6 83.46%);
+    box-shadow: 0px 6.75601px 15.201px rgba(70, 177, 194, 0.32);
+    border-radius: 50%;
+    font-family: TT Chocolates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40.536px;
+    line-height: 49px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blue_ceo {
+    left: 5%;
+    top: 4%;
+    font-size: 20.5003px;
+    width: 110px;
+    height: 110px;
+  }
+  .blue_cto {
+    top: 21%;
+    left: 49%;
+    display: none;
+  }
+  .blue_advisors {
+    font-size: 14px;
+    top: 61%;
+    left: 22%;
+    width: 92px;
+    height: 92px;
+  }
+  .blue_developers {
+    font-size: 10.2502px;
+    width: 90px;
+    height: 90px;
+    top: 15%;
+    left: 60%;
+  }
+  .blue_pm {
+    font-size: 20.2292px;
+    width: 75px;
+    height: 75px;
+    top: 33%;
+    left: 34%;
+  }
+  .blue_design {
+    font-size: 15px;
+    width: 92px;
+    height: 92px;
+    top: 38%;
+    left: 62%;
+  }
+  .blue_qa {
+    top: 54%;
+    left: 65%;
+    font-size: 20.5003px;
+    width: 92px;
+    height: 92px;
+  }
+}
+
 .slider {
   position: relative;
   width: 90%;
