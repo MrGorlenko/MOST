@@ -2359,7 +2359,7 @@ img {
   left: 12%;
 }
 
-.blue {
+.blue_team {
   position: absolute;
   width: 140px;
   height: 140px;
@@ -2478,7 +2478,7 @@ img {
     top: 76%;
     left: 12%;
   }
-  .blue {
+  .blue_team {
     position: absolute;
     width: 140px;
     height: 140px;
@@ -2594,7 +2594,7 @@ img {
     top: 75%;
     left: 12%;
   }
-  .blue {
+  .blue_team {
     position: absolute;
     width: 140px;
     height: 140px;
@@ -2725,7 +2725,7 @@ img {
     top: 76%;
     left: 12%;
   }
-  .blue {
+  .blue_team {
     position: absolute;
     width: 140px;
     height: 140px;
@@ -2870,7 +2870,7 @@ img {
     left: 52%;
     width: 136px;
   }
-  .blue {
+  .blue_team {
     position: absolute;
     width: 140px;
     height: 140px;
