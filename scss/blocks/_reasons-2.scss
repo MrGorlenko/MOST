@@ -12,12 +12,26 @@
 
     &__container{
         height: 290px;
-        width: 80%;
+        width: 1150px;
         margin-bottom: 70px;
     }
 
     &__block{
         box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 23%;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        span{
+            width: 85%;
+        }
+
         &:hover{
             box-shadow: none;
         }
@@ -26,6 +40,54 @@
                 box-shadow: none;
             }
         }
+
+        &_1{
+            background-image: url('../../img/reasons-2/1.png');
+        }
+        &_2{
+            background-image: url('../../img/reasons-2/2.png');
+            background-position: bottom;
+        }
+        &_3{
+            background-image: url('../../img/reasons-2/3.png');
+            span{
+                margin-left: -20px;
+            }
+        }
+        &_4{
+            background-image: url('../../img/reasons-2/4.png');
+            span{
+                margin-left: -13px;
+            }
+        }
+
+    }
+
+    &__mainlabel{
+
+        display: block;
+
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 84px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    &__label{
+
+        display: block;
+
+        font-family: TT Chocolates;
+        font-size: 23px;
+        line-height: 25px;
+        text-align: center;
+
+        color: #FFFFFF;
+
     }
 
     &__paragraph{
@@ -47,23 +109,41 @@
 @media (max-width: 1200px){
     .reasons-2{
         &__container{
+            width: 950px;
             margin-bottom: 0;
         }
         &__paragraph{
             width: 600px;
             font-size: 24px;
         }
+        &__mainlabel{
+            font-size: 55px;
+        }
+        &__label{
+            font-size: 21px;
+        }
     }
 }
 
 @media( max-width: 992px){
     .reasons-2{
+
         &__title{
             font-size: 50px;
         }
         &__container{
             height: 590px;
+            width: 700px;
         }
+
+        &__block{
+            height: 45%;
+            width: 45%;
+            span{
+                width: 68%;
+            }
+        }
+        
         &__img{
             width: 50%;
         }
@@ -78,6 +158,30 @@
         &__img{
             width: 70%;
         }
+
+        &__block{
+            &_2{
+                margin-top: 25px;
+                span{
+                    // margin-top: -25px;
+                }
+            }
+        }
+
+        &__container{
+            width: 500px;
+            height: 400px;
+        }
+
+        &__mainlabel{
+            font-size: 38px;
+            line-height: initial;
+        }
+
+        &__label{
+            font-size: 18px;
+        }
+
         &__paragraph{
             font-size: 25px;
             line-height: 25px;
@@ -101,6 +205,16 @@
         &__block{
             height: 150px;
         }
+        &__mainlabel{
+            font-size: 31px;
+            &_2{
+                margin-top: -35px;
+            }
+        }
+        &__label{
+            font-size: 15px;
+            line-height: 16px;
+        }
         &__title{
             font-size: 32px;
         }
@@ -110,4 +224,5 @@
             line-height: 19px;
         }
     }
+
 }

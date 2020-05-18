@@ -43,6 +43,50 @@
     }
 }
 
+@media (min-width: 769px){
+    .hero-2{
+        &__bg{
+            &_mobile{
+                display: none;
+            }
+        }
+        &__label{
+            &_mobile{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .hero-2{
+        &__bg{
+            &_desc{
+                display: none;
+            }
+            &_mobile{
+                width: 250px;
+            }
+        }
+        &__label{
+            &_mobile{
+                font-family: TT Chocolates;
+                font-style: normal;
+                font-weight: bold;
+                text-align: center;
+
+                color: #FFFFFF;
+
+                position: absolute;
+                top: 60px;
+                font-size: 23px;
+                right: 30px;
+
+            }
+        }
+    }
+}
+
 @media (max-width: 576px){
     .hero-2{
         &__about{
