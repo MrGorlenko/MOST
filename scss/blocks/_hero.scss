@@ -50,6 +50,9 @@
         top: 10px;
         left: 45px;
         font-size: 11px;
+        &_app{
+            left: 55px;
+        }
     }
     &__company{
         color: #FFFFFF;
@@ -57,6 +60,9 @@
         bottom: 5px;
         left: 45px;
         font-size: 20px;
+        &_app{
+            left: 55px;
+        }
     }
 }
 

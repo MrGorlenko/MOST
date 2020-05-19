@@ -375,12 +375,20 @@ img {
   font-size: 11px;
 }
 
+.hero__download_app {
+  left: 55px;
+}
+
 .hero__company {
   color: #FFFFFF;
   position: absolute;
   bottom: 5px;
   left: 45px;
   font-size: 20px;
+}
+
+.hero__company_app {
+  left: 55px;
 }
 
 .hero__title, .hero__about, .hero__buttons {
@@ -2316,7 +2324,6 @@ img {
   width: 100%;
   height: 105vh;
   opacity: 0;
-  transition: .5s ease-out;
   z-index: -2;
   top: 0;
   left: 0;
@@ -2369,7 +2376,6 @@ img {
 
 .modal-opacity {
   opacity: 1 !important;
-  transition: .5s ease-out;
 }
 
 .modal-z-index {
