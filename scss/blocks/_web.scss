@@ -32,6 +32,8 @@
 
     }
     &__descriptions{
+
+        padding-top: 50px;
         display: flex;
         width: 50%;
         height: 430px;
@@ -91,7 +93,6 @@
 
     &__img{
         max-height: 490px;
-        margin-top: 55px;
         &_second{
             max-height: 490px;
         }

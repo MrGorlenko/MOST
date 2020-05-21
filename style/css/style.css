@@ -782,6 +782,7 @@ img {
 }
 
 .web__descriptions {
+  padding-top: 50px;
   display: flex;
   width: 50%;
   height: 430px;
@@ -840,7 +841,6 @@ img {
 
 .web__img {
   max-height: 490px;
-  margin-top: 55px;
 }
 
 .web__img_second {
