@@ -1,9 +1,13 @@
 .comments{
-    min-height:545px;;
+    min-height:545px;
+    margin-top: 100px;
     &__container{
         width: 100%;
 
         display: flex;
+        justify-content: space-around;
+
+        align-items: end;
     }
     &_img{
         width: 48%;
@@ -11,7 +15,6 @@
     }
     &__title{
         text-align: left;
-        margin-top: 110px;
     }
 
     &__blocks{
