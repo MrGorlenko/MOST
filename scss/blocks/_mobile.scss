@@ -1,3 +1,7 @@
+@media (max-width: 1500px){
+    
+}
+
 .mobile{
     &__phone{
         margin: auto;
@@ -10,6 +14,7 @@
         margin: auto; 
         position: relative;
         margin-bottom: 70px;
+        justify-content: space-between;
         &_second{
             flex-direction: row-reverse;
             justify-content: space-around;
@@ -55,7 +60,7 @@
         margin-bottom: 23px;
     }
     &__img{
-        width: 45%;
+        // width: 45%;
         max-height: 585px;
     }
     &__try{
@@ -78,13 +83,9 @@
         text-align: center;
 
         position: absolute;
-        left: 0;
+        // left: 0;
         bottom: 10px;
 
-        &_second{
-            right: 0;
-            left: auto;
-        }
 
     }
 

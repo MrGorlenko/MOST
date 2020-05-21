@@ -1,3 +1,11 @@
+@media (min-width: 1900px){
+    .header{
+        &__content{
+            width: 875px !important;
+        }
+    }
+}
+
 .header{
     padding-top: 40px;
     width: 90%;
@@ -52,6 +60,9 @@
         align-items: center;
         justify-content: center;
     }
+    &__logo{
+        cursor: pointer;
+    }
 }
 
 #header-container{
@@ -60,7 +71,7 @@
     justify-content: inherit;
 }
 
-@media (max-width: 1160px){
+@media (max-width: 1200px){
     .header{
         &__content{
             width: 800px;

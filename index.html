@@ -13,7 +13,8 @@
 <body>
 
     <header class="header">
-        <img class="header__logo" src="img/header/most-logo.svg" alt="">
+
+        <a href="index.html" class="main"><img class="header__logo" src="img/header/most-logo.svg" alt=""></a>
         <div class="header__content">
             <div class="header__language">
                 <a href="#" class="header__link header__lang header__lang_active">EN</a> <div class="header__line"></div> <a href="#" class="header__lang header__link">RU</a>
@@ -74,14 +75,14 @@
             network of its employees.
         </p>
         <div class="hero__buttons">
-            <a href="https://apps.apple.com/ru/app/most-epp/id1491001441?l=en" class="hero__link">
+            <a target="_blank" href="https://apps.apple.com/ru/app/most-epp/id1491001441?l=en" class="hero__link">
                 <button class="hero__btn">
                     <img src="img/hero/appstore.svg" alt="">
                     <span class="hero__download hero__download_app">Download on the</span>
                     <span class="hero__company hero__company_app">App Store</span>
                 </button>
             </a>
-            <a href="https://play.google.com/store/apps/details?id=mostapp.pro" class="hero__link">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=mostapp.pro" class="hero__link">
                 <button class="hero__btn">
                     <img src="img/hero/google-play.svg" alt="">
                     <span class="hero__download">Download on</span>
@@ -149,9 +150,9 @@
                         <span class="mobile__label slider__label">Establish a client relationship scorecard</span>
                         <p class="mobile__paragraph slider__paragraph">Use/create in-built forms for contact profiiling. See how prospective you are to making prospective lead a client.</p>
                     </div>
+                    <div class="mobile__try slider__try">try it for free</div>
                 </div>
                 <img src="img/mobile/mobile-global-1.png" alt="" class="mobile__img slider__img">
-                <div class="mobile__try slider__try">try it for free</div>
             </div>
     
             <div id='exchange-container' class="mobile__container mobile__container_second slider__container none-opacity">
@@ -176,9 +177,9 @@
                         <span class="mobile__label slider__label">Get live updates on contacts information</span>
                         <p class="mobile__paragraph slider__paragraph">Whenever things change in contacts personal information get the latest data instantly.</p>
                     </div>
+                    <div class="mobile__try slider__try">try it for free</div>
                 </div>
                 <img src="img/mobile/mobile-global-second.png" alt="" class="mobile__img slider__img">
-                <div class="mobile__try mobile__try_second slider__try">try it for free</div>
             </div>
 
         </div>
@@ -208,16 +209,6 @@
                         <span class="web__label slider__label">Comparative analysis of sales managers</span>
                         <p class="web__paragraph slider__paragraph">Previously untraced metrics of sales reps. Learn about the performance at the very top of sales funnel.</p>
                     </div>
-                    <div class="web__block slider__block">
-                        <img src="img/web/list.png" alt="" class="web__icon slider__icon">
-                        <span class="web__label slider__label">Set field tasks and track completion</span>
-                        <p class="web__paragraph slider__paragraph">Create personalised or group tasks for employees. Specify industries, regions & positions for contacts to collect.</p>
-                    </div>
-                    <div class="web__block slider__block">
-                        <img src="img/web/list.png" alt="" class="web__icon slider__icon">
-                        <span class="web__label slider__label">Set field tasks and track completion</span>
-                        <p class="web__paragraph slider__paragraph">Create personalised or group tasks for employees. Specify industries, regions & positions for contacts to collect.</p>
-                    </div>
                     <div class="web__try slider__try">try it for free</div>
                 </div>
                 <img src="img/web/med.png" alt="" class="web__med web__med_left">
@@ -233,18 +224,8 @@
                     </div>
                     <div class="web__block slider__block">
                         <img src="img/web/list.png" alt="" class="web__icon slider__icon">
-                        <span class="web__label slider__label">Set field tasks and track completion</span>
-                        <p class="web__paragraph slider__paragraph">Create personalised or group tasks for employees. Specify industries, regions & positions for contacts to collect.</p>
-                    </div>
-                    <div class="web__block slider__block">
-                        <img src="img/web/list.png" alt="" class="web__icon slider__icon">
-                        <span class="web__label slider__label">Set field tasks and track completion</span>
-                        <p class="web__paragraph slider__paragraph">Create personalised or group tasks for employees. Specify industries, regions & positions for contacts to collect.</p>
-                    </div>
-                    <div class="web__block slider__block">
-                        <img src="img/web/list.png" alt="" class="web__icon slider__icon">
-                        <span class="web__label slider__label">Set field tasks and track completion</span>
-                        <p class="web__paragraph slider__paragraph">Create personalised or group tasks for employees. Specify industries, regions & positions for contacts to collect.</p>
+                        <span class="web__label slider__label">How far from securing the plan is the team</span>
+                        <p class="web__paragraph slider__paragraph">Stay on track with weekly, monthly & event goals, by understanding the performace.</p>
                     </div>
                     <div class="web__try web__try_second slider__try">try it for free</div>
                 </div>
@@ -335,7 +316,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <!-- <section class="price">
 
         <a id='pricing'></a>
         
@@ -401,7 +382,21 @@
             <img src="img/price/qiwi.png" alt="" class="price__banks price__banks_qw">
         </div>
 
+    </section> -->
+
+
+    <section class="promotion">
+        <div class="promotion__pictures">
+            <img class='promotion__phone' src="img/promotion/mobile.png" alt="">
+            <img class='promotion__free' src="img/promotion/free.png" alt="">
+        </div>
+        <div class="promotion__text">
+            <span class="promotion__yay">Yay!<br> Special promotion</span>
+            <span class="promotion__early">for early users</span>
+            <span class="promotion__enjoy">Enjoy MOST for free with all features from Team & Enterprise plans till 01 August 2020</span>
+        </div>
     </section>
+
 
     <section class="comments">
         <div class="comments__container">
@@ -498,14 +493,14 @@
             <p class="modal__label">Choose your store based on your device</p>
 
             <div style="padding-left: 0;" class="hero__buttons">
-                <a href="https://apps.apple.com/ru/app/most-epp/id1491001441?l=en" class="hero__link">
+                <a target="_blank" href="https://apps.apple.com/ru/app/most-epp/id1491001441?l=en" class="hero__link">
                     <button class="hero__btn">
                         <img src="img/hero/appstore.svg" alt="">
                         <span class="hero__download">Download on the</span>
                         <span class="hero__company">App Store</span>
                     </button>
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=mostapp.pro" class="hero__link">
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=mostapp.pro" class="hero__link">
                     <button class="hero__btn">
                         <img src="img/hero/google-play.svg" alt="">
                         <span class="hero__download">Download on</span>
@@ -520,9 +515,9 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__links">
-                <a href="https://www.linkedin.com/company/11787095/admin/" class="footer__link"><img src="img/footer/linkedin.svg" alt=""></a>
-                <a href="https://www.crunchbase.com/organization/most-app" class="footer__link"><img src="img/footer/crunchbase.svg" alt=""></a>
-                <a href="https://instagram.com/most.epp?igshid=mrwabyyjugdi" class="footer__link"><img src="img/footer/insta.svg" alt=""></a>
+                <a target="_blank" href="https://www.linkedin.com/company/11787095/admin/" class="footer__link"><img src="img/footer/linkedin.svg" alt=""></a>
+                <a target="_blank" href="https://www.crunchbase.com/organization/most-app" class="footer__link"><img src="img/footer/crunchbase.svg" alt=""></a>
+                <a target="_blank" href="https://instagram.com/most.epp?igshid=mrwabyyjugdi" class="footer__link"><img src="img/footer/insta.svg" alt=""></a>
             </div>
 
             <div class="footer__position">

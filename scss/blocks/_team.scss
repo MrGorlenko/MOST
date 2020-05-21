@@ -23,6 +23,10 @@
     }
 
     &__photo{
+
+        opacity: 1;
+        transition: opacity .4s ease-out;
+
         position: absolute;
         &_1{
             left: 3%;
@@ -75,11 +79,18 @@
     }
 }
 
-
+.team__opacity{
+    opacity: 0.5 !important;
+    transition: opacity .4s ease-out !important;
+}
 
 .blue{
 
     &_team{
+
+        opacity: 1;
+        transition: opacity .4s ease-out;
+
         position: absolute;
         width: 140px;
         height: 140px;
@@ -97,6 +108,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        cursor: pointer;
 
     }
 
@@ -143,6 +156,15 @@
 
     .team{
 
+        overflow: hidden;
+
+
+        // &__top{
+        //     right: -90px;
+        // }
+        // &__bottom{
+        //     right: -70px;
+        // }
     
         &__photo{
             position: absolute;
@@ -405,11 +427,26 @@
 
 }
 
+@media (max-width: 1050px){
+    .team{
+
+        &__top{
+            width: 720px;
+        }
+        &__bottom{
+            height: 1640px;
+            right: -75px;
+        }
+    }
+}
+
 @media (max-width: 992px){
 
     .team{
+
         &__top{
             display: none;
+            right: 0;
             &_mobile{
                 display: block;
                 position: absolute;
@@ -420,6 +457,7 @@
         }
 
         &__bottom{
+            right: 0;
             display: none;
             &_mobile{
                 display: block;

@@ -1,0 +1,107 @@
+.promotion{
+
+    height: 420px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    &__pictures{
+        position: relative;
+    }
+
+    &__free{
+        position: absolute;
+        right: -27%;
+        bottom: -8%;
+    }
+
+    &__yay{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52.3323px;
+        line-height: 63px;
+        
+        color: #414052;
+
+        display: block;
+
+        margin-bottom: 5px;
+    }
+
+    &__early{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 31.9808px;
+        line-height: 38px;
+        
+        color: #414052;
+        
+        display: block;
+        margin-bottom: 20px;
+    }
+    &__enjoy{
+        font-family: TT Chocolates;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24.7125px;
+        line-height: 30px;
+        
+        color: #414052;
+
+        display: block;  
+
+        width: 420px;
+    }
+}
+
+@media (max-width: 1100px){
+    .promotion{
+        &__phone{
+            width: 300px;
+        }
+    }
+}
+
+
+@media (max-width: 992px){
+    .promotion{
+        flex-direction: column;
+        height: 660px;
+    }
+}
+
+@media (max-width: 768px){
+    .promotion{
+        &__yay{
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__free{
+            right: -19%;
+            bottom: -2%;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .promotion{
+        &__phone{
+            width: 280px;
+        }
+        &__free{
+            width: 175px;
+            bottom: 0;
+            right: 0;
+        }
+
+        span{
+            width: 315px;
+            margin: auto;
+        }
+    }
+}

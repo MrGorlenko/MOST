@@ -1,4 +1,35 @@
+@media (min-width: 1900px){
+    .header{
+        &__content{
+            &_investor{
+                width: 830px !important;
+            }
+            &_team{
+                width: 1000px !important;
+            }
+        }
+    }
+}
+
+.header{
+    &__content{
+        &_investor{
+            width: 850px;
+        }
+
+        &_team{
+            width: 1000px;
+        }
+    }
+
+}
+
+
+
+
 @media (max-width: 768px){
+
+
     .header-2{
         padding-top: 8px;
     }

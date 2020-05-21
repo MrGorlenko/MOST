@@ -1,3 +1,11 @@
+@media (max-width: 1500px){
+    .web{
+        &__med{
+            width: 50%;
+        }
+    }
+}
+
 .web{
     &__brouser{
         margin: auto;
@@ -7,15 +15,16 @@
     &__features{
         width: 600px;
     }
-    &__slider{
-        width: 100% !important;
-    }
+    // &__slider{
+    //     width: 100% !important;
+    // }
     &__container{
         display: flex;
         flex-direction: row-reverse;
         width: 100%;
         position: relative;
         margin-bottom: 70px;
+        justify-content: space-between;
 
         &_second{
             flex-direction: row;
@@ -24,15 +33,16 @@
     }
     &__descriptions{
         display: flex;
-        flex-wrap: wrap;
         width: 50%;
         height: 430px;
-        margin-top: 70px;
         position: relative;
 
-        &_second{
-            padding-left: 2%;
-        }
+        flex-direction: column;
+        align-items: center;
+
+        // &_second{
+        //     // padding-left: 2%;
+        // }
 
     }
     &__block{
@@ -63,14 +73,14 @@
         font-size: 16px;
         line-height: 100%;
         color: #9796A0;
-        width: 95%;
+        width: 285px;
         margin-bottom: 23px;
     }
 
     &__med{
         z-index: -1;
     position: absolute;
-    width: 50%;
+    // width: 50%;
     &_left{
         left: 0;
     }
@@ -80,11 +90,9 @@
     }
 
     &__img{
-        width: 48%;
         max-height: 490px;
         margin-top: 55px;
         &_second{
-            width: 48%;
             max-height: 490px;
         }
     }
@@ -110,10 +118,18 @@
         left: 0;
         bottom: -120px;
 
-        &_second{
-            left: 4%;
-        }
+        // &_second{
+        //     left: 4%;
+        // }
 
+    }
+}
+
+@media (max-width: 1260px){
+    .web{
+        &__img{
+            max-height: 390px;
+        }
     }
 }
 
@@ -122,6 +138,7 @@
         &__med{
             top: 50px;
         }
+
     }
 }
 

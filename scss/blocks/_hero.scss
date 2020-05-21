@@ -1,4 +1,8 @@
 .hero{
+
+    width: 90%;
+    margin: auto;
+
     &__bg{
         position: absolute;
         top: 0;
@@ -37,6 +41,9 @@
         outline: none;
         position: relative;
         font-family: Roboto;
+
+        cursor: pointer;
+
         img{
             position: absolute;
             left: 11px;
@@ -64,11 +71,15 @@
             left: 55px;
         }
     }
+
+    &__link{
+        cursor: pointer;
+    }
 }
 
-.hero__title, .hero__about, .hero__buttons{
-    padding-left: 48px;
-}
+// .hero__title, .hero__about, .hero__buttons{
+//     padding-left: 48px;
+// }
 
 
 
