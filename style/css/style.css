@@ -3445,6 +3445,65 @@ img {
   }
 }
 
+.term {
+  width: 60%;
+  margin: auto;
+}
+
+.term__title {
+  font-size: 45px;
+}
+
+.term__list {
+  font-weight: 800;
+}
+
+.term__list_2 {
+  font-weight: initial;
+}
+
+.term__list_2 li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.term__desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.term__desc span {
+  display: block;
+}
+
+.term__desc_left {
+  font-weight: 700;
+  width: 160px;
+}
+
+.term__desc_right {
+  width: 370px;
+}
+
+@media (max-width: 576px) {
+  .term {
+    width: 85%;
+  }
+  .term__title {
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .term__list_2 {
+    font-size: 11px;
+  }
+  .term__list_3 {
+    font-size: 11px;
+  }
+}
+
 .slider {
   position: relative;
   width: 90%;
