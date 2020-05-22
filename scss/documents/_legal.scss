@@ -1,0 +1,44 @@
+@mixin font {
+    font-family: TT Chocolates;
+    font-style: normal;
+}
+
+.legal{
+
+    width: 600px;
+    margin: auto;
+
+    &__title{
+        text-align: center;
+
+        @include font;
+        font-weight: bold;
+
+        font-size: 50px;
+
+    }
+
+    &__logo{
+        display: block;
+        margin: auto;
+    }
+
+    &__card{
+        margin-top: 60px;
+        @include font;
+        margin-bottom: 60px;
+
+        font-weight: 500;
+
+        font-size: 35px;
+    }
+
+    &__line{
+        @include font;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    &__bold{
+        font-weight: 400;
+    }
+}

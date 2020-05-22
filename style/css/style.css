@@ -3334,6 +3334,117 @@ img {
   }
 }
 
+.legal {
+  width: 600px;
+  margin: auto;
+}
+
+.legal__title {
+  text-align: center;
+  font-family: TT Chocolates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.legal__logo {
+  display: block;
+  margin: auto;
+}
+
+.legal__card {
+  margin-top: 60px;
+  font-family: TT Chocolates;
+  font-style: normal;
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.legal__line {
+  font-family: TT Chocolates;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.legal__bold {
+  font-weight: 400;
+}
+
+.privacy {
+  width: 60%;
+  margin: auto;
+}
+
+.privacy__title {
+  font-size: 45px;
+  text-align: center;
+}
+
+.privacy__regular {
+  text-align: justify;
+}
+
+.privacy__list {
+  padding-left: 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.privacy__list_2 {
+  padding-top: 15px;
+  font-size: initial;
+  font-weight: initial;
+}
+
+.privacy__list_2 li {
+  margin-bottom: 15px;
+}
+
+.privacy__list_3 {
+  font-size: initial;
+  font-weight: initial;
+}
+
+.privacy__list_3 li {
+  margin-bottom: 15px;
+}
+
+.privacy__list_3 li {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .privacy {
+    width: 80%;
+  }
+  .privacy__title {
+    font-size: 34px;
+  }
+  .privacy__list {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .privacy__title {
+    font-size: 20px;
+  }
+  .privacy__regular {
+    font-size: 11px;
+  }
+  .privacy__list {
+    font-size: 14px;
+  }
+  .privacy__list_2 {
+    font-size: 11px;
+  }
+  .privacy__list_3 {
+    font-size: 11px;
+  }
+}
+
 .slider {
   position: relative;
   width: 90%;
